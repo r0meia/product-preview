@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Fraunces';
+    src: url(/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.image {
+    width: 300px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.flexbox {
+    display: flex;
+    text-align: center;
+    width: 600px;
+    height: 450px;;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.text {
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: white;
+    text-align: left;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+}
+h1 {
+    font-size: 36px;
+    font-family: 'Fraunces';
+    margin-top: 15px;
+}
+p {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+}
+h2 {
+    font-family: 'Fraunces';
+    font-size: 34px;
+    color: hsl(158, 36%, 37%);
+}
+.perfume {
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 1px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 20px;
+}
+.discount {
+    margin-left: 30px;;
+    font-size: 14px;
+    position: relative;
+    top: 27px;
+    height: 10px;
+    margin-bottom: 0;
+
+}
+.submit {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Fraunces';
+    width: 240px;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+}
+.cart {
+    position: relative;
+    bottom: 23px;
+    color: white;
+    left: 95px;
+}
+svg {
+    position: relative;
+    top: 14px;
+    left: 65px;
+}
+.submit:hover {
+    background-color: grey;
+}
